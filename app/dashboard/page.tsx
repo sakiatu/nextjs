@@ -1,13 +1,19 @@
-import { Metadata } from 'next'
+import React from 'react' // Import React at the top
 
-export const metadata= {
-  title: 'Dashboard',
-}
+
 export default function Page() {
-  return <Alhamdulillah />
+  return (
+    <div>
+      <Alhamdulillah/>
+    </div>
+  )
 }
 
 function Alhamdulillah() {
-  return <div className='p-6 text-3xl '>Alhamdulillah, I can show Dashboard!</div>
+  return <div className="p-6 text-3xl">Alhamdulillah, I can show Dashboard!</div>
 }
 
+
+function handleClick() {
+  console.log('Clicked!')
+}

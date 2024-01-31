@@ -1,7 +1,9 @@
-export const metadata= {
-  title: 'Bismillah',
-}
 
-export default function Page() {
-  return <div className='p-6 text-3xl '>Bismillahir Rahmanir Rahim</div>
+export  default  function HomePage() {
+
+  return (
+    <div className={'text-6xl'}>
+      This is the home page
+    </div>
+  );
 }
